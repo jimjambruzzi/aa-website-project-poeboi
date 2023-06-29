@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html language="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="layout.css">
+        <title>POE BOI SUPPLY CO. Feedback</title>
+        <link rel="icon" type="image/x-icon" href="\\wsl.localhost\Ubuntu\home\jambruzzi\App-Academy\aa-website-project-poeboi\pb_favicon.ico">
+    </head>
+    <body>
+        <header>
+            <div class="heroHeader">
+                <p class="heroTitle">
+                    POE BOI SUPPLY CO.
+                </p>
+            </div>
+            <nav>
+                <a href="#">about us</a>
+                <a href="#">feedback</a>
+                <a href="#">in store shipping</a>
+                <a href="#">photo feed</a>
+            </nav>
+        </header>
+        <h1>We'd love your feedback</h1>
+        <form action="/form-handling-url" method="post" class="form">
+            <fieldset class="fieldset">
+            <legend class ="getFeedback">Share your thoughts</legend>
+
+            <div class="name">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email_address">
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" id="replyAuth" name="replyAuth" value="replyAuth" class="replyAuth">
+                <label for="replyAuth"> If checked, you authorize for us to contact you via the email above regarding your feedback.</label>
+            </div>
+
+            <div class="feedback">
+                <label for="feedback">Feedback</label>
+                <textarea id="feedback" name="feedback"></textarea>
+            </div>
+
+            <div class="submitFeedback">
+                <button type="submit">Submit</button>
+            </div>
+            </fieldset>
+        </form>
+        <footer>
+            <div class="footerLinks">
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">contact</a>
+                <a href="#">about</a>
+                <p class="copyright">(c) Copyright Poe Boi Supply Co. 2023</p>
+            </div>
+        </footer>
+    </body>
+</html>
