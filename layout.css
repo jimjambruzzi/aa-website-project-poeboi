@@ -1,0 +1,260 @@
+body {
+    background-color: #D9D9D9;
+    display: block;
+}
+
+header {
+    background-color: #444444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    box-shadow: 0px 5px 10px #000000;
+}
+
+nav {
+    color: #002D6D;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px 200px;
+    font: inherit;
+}
+
+a {
+    font: bold 20px Arial, Helvetica, sans-serif;
+    color: #305D9D;
+    text-decoration: none;
+}
+
+a:hover {
+    font: bold 20px Arial, Helvetica, sans-serif;
+    color: #002D6D;
+    text-decoration: none;
+}
+
+.heroTitle {
+    font-size: 95px;
+    color: #D9D9D9;
+    text-shadow: 0px 5px 10px #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+h1 {
+    font: bolder 40px sans-serif;
+}
+
+.heroImage {
+    display: inline-block;
+    height: 400px;
+    width: 1400px;
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+
+.paragraphs {
+    width: 900px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: first baseline;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 900px;
+    height: auto;
+}
+
+fieldset {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: none;
+}
+
+legend {
+    font: lighter 30px sans-serif;
+    text-indent: 20px;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+.name,
+.email,
+.feedback {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: left;
+    text-indent: 20px;
+    font: bold 20px sans-serif;
+    padding: 10px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font: 16px sans-serif;
+    padding: 10px;
+    width: 500px;
+}
+
+input[type="checkbox"] {
+    display: flex;
+    justify-content: left;
+    background-color: #D9D9D9;
+    border-color: #444444;
+    padding: 10px;
+}
+
+label[for="replyAuth"] {
+    padding: 10px;
+    width: 500px;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    background-color: #D9D9D9;
+    border-color: #444444;
+    border-radius: 15px;
+    height: auto;
+    width: 500px;
+}
+
+.submitFeedback {
+    display: flex;
+    justify-content: right;
+}
+
+button {
+    background-color: #002D6D;
+    padding: 10px 30px;
+    color: #D9D9D9;
+    border-radius: 15px;
+    border-color: #002D6D;
+    font: bold 20px sans-serif;
+}
+
+.issLinks {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 10px;
+    margin: 10px;
+}
+
+.photoFeed {
+    display: grid;
+    grid-template-rows: 400px 400px 400px;
+    grid-template-columns: 400px 400px 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+label[for="squarePhoto1"] {
+    display: block;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font: bold 16px sans-serif;
+    color: white;
+}
+
+label[for="squarePhoto1"] {
+    display: block;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font: bold 16px sans-serif;
+    color: white;
+}
+
+label[for="squarePhoto2"] {
+    display: block;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font: bold 16px sans-serif;
+    color: white;
+}
+
+label[for="squarePhoto3"] {
+    display: block;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font: bold 16px sans-serif;
+    color: white;
+}
+
+label[for="squarePhoto4"] {
+    display: block;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font: bold 16px sans-serif;
+    color: white;
+}
+
+label[for="squarePhoto5"] {
+    display: block;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font: bold 16px sans-serif;
+    color: white;
+}
+
+label[for="squarePhoto6"] {
+    display: block;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    font: bold 16px sans-serif;
+    color: white;
+}
+
+.squarePhoto,
+.squarePhoto2,
+.squarePhoto3,
+.squarePhoto4,
+.squarePhoto5,
+.squarePhoto6 {
+    display: block;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #444444;
+    height: 100px;
+}
+
+.footerLinks {
+    color: #305D9D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 10px 200px;
+}
+
+.copyright {
+    font: bold 16px sans-serif;
+}
